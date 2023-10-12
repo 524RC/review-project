@@ -1,4 +1,4 @@
-//when clicked, value is removed
+
 function clearName() {
     if (
       document.getElementById("nameField").value == "Your Name"
@@ -6,8 +6,7 @@ function clearName() {
       document.getElementById("nameField").value = "";
     }
   }
-  
-  //once cleared and clicked out of box, value is added back
+ 
   function resetName() {
     if (document.getElementById("nameField").value == "") {
       document.getElementById("nameField").value = "Your Name";
